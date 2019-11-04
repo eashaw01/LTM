@@ -5,6 +5,7 @@ library(ggplot2)
 library(segmented)
 library(gridExtra)
 
+#breakpoint analysis for 1993-2015 data for Scottnema populations, Eudorylaimus populations, Soil Organic Carbon, and Chlorophyll a
 ## Set ggplot2 theme
 theme_set(theme_bw())
 theme_update( panel.grid.major=element_blank(), panel.grid.minor=element_blank(),
