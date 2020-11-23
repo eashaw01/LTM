@@ -2907,8 +2907,9 @@ pCHL <- pCHL +  geom_point(data=W.CHL, aes(x = Year, y = mean), color="deepskybl
 pCHL
 pCHL1<-pCHL
 
-bp_fig_v2 <- ggarrange(pSOC1, pCHL1, mylegend, pSTL1, pETL1,
+#run time series to get psummer temperature plot
+bp_fig_v2 <- ggarrange(psummer, pSOC1, pCHL1, pSTL1, pETL1, mylegend,
                     ncol =3, nrow =2, 
-                    align = "v",labels = c("a)", "b)","", "c)", "d)"))
+                    labels = c("a)", "b)", "c)", "d)", "e)", ""))
 bp_fig_v2
 
